@@ -1,0 +1,5 @@
+azure-cosmos
+azure-functions
+numpy
+pandas
+python-dotenv

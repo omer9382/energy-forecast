@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+env/
+
+# Azure Functions
+.python_packages/
+local.settings.json
+
+# IDE
+.idea/
+*.iml
+.vscode/
+
+# OS
+.DS_Store
+
+# Environment variables
+.env
+energy.csv
+host.json
+local.settings.json
