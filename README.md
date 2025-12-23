@@ -171,13 +171,13 @@ The `LinearRegression` class implements gradient descent optimization from scrat
 # Features used for training
 - Normalization: Z-score standardization (μ=0, σ=1)
 - Optimization: Batch gradient descent
-- Learning rate: 0.1 (adaptive)
+- Learning rate: 0.1 (fixed)
 - Iterations: 2000 epochs
 - Cost function: Mean Squared Error (MSE)
 ```
 
 **Key Methods**:
-- `compute_cost()`: Train model using gradient descent
+- `compute_cost()`: Complete training process with normalization and gradient descent optimization
 - `predict()`: Single-point prediction with lag feature calculation
 - `forecast()`: Multi-step ahead forecasting with recursive prediction
 - `load()`: Restore trained model from persisted state
@@ -221,7 +221,7 @@ The `FE` (Feature Engineering) class transforms raw timestamps into predictive f
 
 1. **Clone the repository**
 ```bash
-git clone https://github.com/omer9382/energy-forecast.git
+git clone https://github.com/<your-username>/energy-forecast.git
 cd energy-forecast
 ```
 
